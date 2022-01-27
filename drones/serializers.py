@@ -53,6 +53,7 @@ class CompetitionSerializer(serializers.HyperlinkedModelSerializer):
 		model = Competition
 		fields = (
 			'url',
+			'name',
 			'pk',
 			'distance_in_feet',
 			'distance_achievement_date',
