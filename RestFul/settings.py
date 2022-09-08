@@ -77,17 +77,17 @@ WSGI_APPLICATION = 'RestFul.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': { 
-    'ENGINE': 'django.db.backends.postgresql', 
-    # Replace drones with your desired database name 
-    'NAME': 'drones', 
-    #Replace username with your desired user name 
-    'USER': 'restful', 
-    # Replace password with your desired password 
-    'PASSWORD': 'Nahuelement789', 
-    # Replace 127.0.0.1 with the PostgreSQL host 
-    'HOST': '127.0.0.1', 
-    # Replace 5432 with the PostgreSQL configured port # in case you aren't using the default port 
+    'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    # Replace drones with your desired database name
+    'NAME': 'drones',
+    #Replace username with your desired user name
+    'USER': 'postgres',
+    # Replace password with your desired password
+    'PASSWORD': 'root',
+    # Replace 127.0.0.1 with the PostgreSQL host
+    'HOST': 'localhost',
+    # Replace 5432 with the PostgreSQL configured port # in case you aren't using the default port
     'PORT': '5432',
     }
 
